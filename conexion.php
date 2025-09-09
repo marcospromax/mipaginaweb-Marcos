@@ -7,7 +7,7 @@ $username = "root";
 
 $password = "";
 
-$dbname = "biblioteca-tecnica1";
+$dbname = "biblioteca - tecnica1";
 
 
 
@@ -43,7 +43,7 @@ if ($result->num_rows > 0) {
 
     echo "<thead>";
 
-    echo "<tr><th>ID</th><th>Nombre</th><th>Apellido</th><th>Correo</th><th>Telefono</th></tr>";
+    echo "<tr><th>ID</th><th>titulo del libro</th><th>autor</th><th>editorial</th><th>cantidad</th><th>materia</th></tr>";
 
     echo "</thead>";
 
@@ -75,7 +75,7 @@ if ($result->num_rows > 0) {
 
 } else {
 
-    echo "<p>No hay alumnos registrados aún.</p>";
+    
 
 }
 
